@@ -1,0 +1,422 @@
+V1.0.0.20230625_Beta
+-添加
+ 【现代化修复】modernfix
+ 【堡垒修复】SaveMyStronghold
+ 【物品物理掉落】ItemPhysicLite
+ 【颜色代码】ColorUtility
+ 【ftb任务】ftb-quests
+ 【ftb备份】ftb-backup（替代quicksave）
+ 【ftb交易】ftb-money
+ 【幻梦】eidolon
+ 【末地创世】endrem
+ 【墓园】The_Graveyard
+ 【维度地牢】dimdungeons
+ 【希腊幻想】greekfantasy
+ 【神秘遗物】EnigmaticLegacy
+ 【伙伴】humancompanions
+ 【猪人村民】sapience
+ 【反击回血】RallyHealt
+ 【储物抽屉】StorageDrawers
+ 【储物抽屉渲染配置】drawerfps
+ 【寻龙杖】dragonseeker
+ 【粉笔】chalk
+ 【维度壁画】Dimensional-Paintings
+ 【随机矿石】randomite
+ 【建筑手杖】constructionwand
+ 【预制建筑】prefab
+ 【储物抽屉】StorageDrawers
+ 【暗黑之眼】EyesInTheDarkness
+ 【碧海新生】upgrade_aquatic
+ 【下界群系】bygonenether
+ 【余烬奇景】Cinderscapes
+ 【地狱扩展】infernal-expansion
+ 【恶地改善】Better-Badlands
+ 【掠夺者营地】takesapillage
+ 【结构变体】repurposed_structures
+ 【更多自然结构】mostructures
+ 【phi遗迹】Philips+ruins
+ 【yung的桥】YungsBridges
+ 【天空结构】Sky+Structures+
+ 【装饰方块】decorative_blocks
+ 【装饰方块兼容】decorative_blocks_abnormals
+ 【好看羊驼】BetterThanLlamas
+ 【兔子礼帽】BetterThanBunnies
+ 【简单农业】simplefarming
+ 【简单的茶】simplytea
+ 【不规则乐事】irregularchef
+ 【乐事兼容】farmersdelightintegrations
+ 【大餐乐事】largemeals
+ 【简农乐事】simpledelights
+  MultiOfflineFix
+  connectivity
+-删除
+ 【光速加载】lightingspeed
+ 【日志过滤】cuneiform
+ 【录像回放】replaymod
+ 【怪物掉落配置】configurableextramobdrops
+ 【羊驼】llamasteeds
+ 【JECH】jecharacters
+ 【我的菜单】Minemenu
+  QuickSave（服务端）
+  QuickShop（服务端）
+-更新
+ 【冰火】iceandfire 2.1.9 => 2.1.12
+ 【idas结构】idas_forge 1.5.4 => 1.5.5
+ 【传送石碑】Waystones => 【传送石碑改】Waystones
+ 【哦土豆】opotato 1.12.0 => 1.14.0
+ 【铷】rubidium 0.2.11 => 0.2.12
+ 【铷扩展】rubidium-extra 0.4.14 => 0.4.18
+ 【铷附属】magnesium_extras 1.7.0 => 1.7.2
+  Placebo 4.6.1 => 4.7.1
+  Clearentity 2.6.0 => 2.6.2
+-优化
+ ·对客户端进行了对java17的兼容性调整，现在你可以在java17上运行它以获取更好的性能了
+ ·调整了xae地图的设置，优化了性能
+ ·开启了modernfix的动态资源与快速物品渲染功能
+ ·关闭了modernfix对jei加载的优化
+ ·优化了启动器JVM参数
+ ·关闭了启动器JVM版本检测
+ ·调整了实体渲染优化的白名单
+ ·开启了fps减速
+ ·调整了光影包默认配置以获取更好的性能
+ ·降低了alex生物中乌鸦以及苍蝇的生成率
+ ·降低了新生魔艺中荒野猎手与荒野伏击者的生成率
+-美化
+ ·GUI美化，几乎覆盖了所有mod
+ ·关闭了背包HUD
+ ·冰火传说，暮色森林的新材质
+ ·美化了更好盾牌里的盾牌（其实是偷来的模型和材质）
+ ·调整了部分物品的稀有度（仅显示效果）
+ ·调整了物品边框的显示效果
+ ·崭新的传送石碑，并将丛林石碑调整为了透明
+ ·更炫酷的末影龙
+ ·新的进度牌匾
+ ·新的背景音乐与音效
+ ·新的客户端图标
+ ·对stayture材质包进行了兼容性调整
+ ·设置staytrue为默认材质
+ ·添加了更多的进食动画
+ ·一些小细节的美化与彩蛋
+ ·优化并集成了各项资源包
+-bug修复
+ ·修复了kjs的报错
+ ·修复了进服崩溃的bug
+ ·修复了退出单人世界时卡住的bug
+ ·修复了猪会掉落试炼通过证的bug
+ ·解决了了多人游戏按钮无法点击的问题
+-世界
+ ·为更好的村庄添加了冰与火之歌，赏金，更多村民的兼容数据包
+ ·为结构变体添加了更好地牢，更好堡垒，农夫乐事，冰火传说，更多村民，残暴掠夺，洞穴山崖的兼容数据包
+ ·关闭了暮色森林天空维度的生成
+ ·增加了战斗高塔boss血量并移除了其自毁机制
+ ·现在一个昼夜循环需要33min
+ ·传送石碑现在只会生成在暮色森林以及深暗之园（旷野之塔正常刷新）
+ ·yung的桥不会出现在暮色森林了（长10格高40格真的能算桥吗）
+ ·提高了旷野之塔的生成概率
+-对冰火传说进行了调整
+ ·大幅降低了龙的刷新率，再也不会跑着跑着突然跳出一条龙追杀你了
+ ·对龙进行了大幅增强
+ ·龙现在也会出现在在暮色森林与深暗之园
+ ·出生点1000格范围内将不再生成龙巢
+ ·提升了九头蛇的生命值
+ ·关闭了九头蛇之心的掉落
+ ·关闭了几种金属矿石的生成
+ ·关闭了原版悚陵的生成，现在只会生成idas的美化版
+-对新生魔艺进行了调整
+ ·取消了对治疗魔符的禁用并削减了其治疗量
+ ·ban掉了破坏魔符
+ ·提高了治疗魔符、护盾魔符、召唤诱饵魔符、紧固魔符的耗魔量并减少了其持续时间
+ ·提高了强化魔符的耗魔量
+ ·调整了德格米护符配方并为德格米添加了互动黑名单
+-对怪物增强进行了调整
+ ·区域难度将以个人难度平均值而不是世界难度作为基准
+ ·前三天难度将不会增加
+ ·关闭了睡眠惩罚
+ ·大部分怪物将不再受此模组影响
+ ·禁止了怪物破坏方块
+ ·禁止了怪物偷窃武器
+ ·大幅降低了怪物骑鹦鹉的概率
+ ·降低了怪物装备的基础附魔概率并限制了其成长性、
+ ·提高了怪物的最大血量与最高攻击力
+ ·提高了怪物的最高魔法抗性
+ ·提高了怪物的最高弹射物伤害
+ ·禁用了怪物速度增长
+ ·将新生魔艺加入了怪物装备黑名单
+-对Champions进行了调整
+ ·新增了第六等级
+ ·解禁了磁力与防护词缀
+ ·对附魔书的掉落进行了微调
+ ·添加了新的战利品（铜币）
+ ·禁用了部分怪物的冠军转化（如各种史莱姆，末影螨）
+ ·为部分boss与怪物增添了默认rank与词缀
+-其他
+ ·调整了战斗高塔的战利品池，你不会再遇到一堆垃圾了
+ ·对暮色森林的boss进行了增强
+ ·略微降低了传送石碑的传送成本
+ ·为所有boss添加了新的战利品（末影之眼，试炼通过证）
+ ·末影遣使出现时将不再会下雨
+ ·为冠军精英怪的掉落物数量添加了随机性
+ ·下调了宝箱内出现金币的概率
+ ·禁用了幻梦中的灵歌附魔台
+ ·对奇异饰品中部分饰品添加了耐久
+ ·对maj配件中的幸运石进行了平衡性调整
+ ·调整了神秘遗物的经验书
+ ·禁用了村民的附魔书交易并添加删除了几项交易
+ ·关闭了地下城精英怪生成（原版怪物的增强锁链头盔）
+ ·更新了血量极简显示黑名单
+ ·修正了地图的传送指令
+ ·对部分模组汉化进行了调整
+ ·调整了跑酷的设置，蹬墙跳变得没那么容易完成了
+ ·为祝福添加了前置使用条件（妖精前置钢铁守护者，群星前置凋灵）
+
+
+
+
+V2.7.2.20230518_Alpha
+-添加
+ 【更好的火把放置】torchslabmod
+ 【日志过滤】cuneiform
+-删除
+ 【颜色代码】ColorUtility
+ 【标记】Ping
+
+
+V2.7.1.20230518_Alpha
+-修复动态光源设置bug
+-修复物品栏HUD设置bug
+-镁铷附属设置调整
+-光影微调
+
+
+V2.7.0.20230518_Alpha
+-添加
+ 【战斗高塔】BrassAmberBattleTowers
+ 【物品集聚】getittogetherdrops（仅服务端）
+ 【栅栏】DiagonalFences
+ 【盔甲调整】armoradjustment
+ 【自定义鞘翅】customizableelytra
+ 【堡垒修复】savedmystonghold（仅服务端）
+ 【可选】【内存优化】ferritecore-2.1.1-forge（仅服务端）
+-删除
+ 【火把放置】torchslabmod
+ 【更多崩溃报告】MoreCrashInfo
+ 【内存清扫】memorysweep
+ 【流畅加载】smoothboot
+-更新
+ 【哦土豆】opotato 1.11.1 => 1.12.0
+-对【动态光源】dynamiclights进行了汉化，并设置为默认禁用
+-禁用了forge的versioncheck
+-禁用了原版的弹窗提示
+-调整了【远物停载】does_potato_tick流体加载范围
+-调整了【实体渲染机制优化】betterend=>betterendforge
+-调整了【铷】rubidium及其附属的一系列设置，对性能进行了进一步优化
+-禁用了日月星mixin以兼容Citadel
+-降低了【光影】oculus的阴影渲染距离（10=>6）并禁用了更新提示
+-关闭了【随意修复】randompatchs竹渲染优化（铷）
+-关闭了赞助披风
+-添加了黑名单以对ExpandAbility与Connectivity进行兼容
+-禁用了实体uuid修复
+-关闭了【崩溃优化】notenoughcrashes的deobfuscateStackTrace
+-修复了boss名字不可见的bug
+-禁用了虚空生物群系的标题显示
+-对火把进行了美化
+ 
+ 
+-为【冠军】Champions模组怪物增加了战利品
+
+V2.6.2.20230511_Alpha
+-添加
+ 【落叶】Fallingleaves
+-删除
+ 【车万女仆】touhoulittlemaid
+-更新
+ 【更好的末地】betterendforge 2.9.1 => 2.10.1
+ 【铷附属】magnesium_extras 1.4.0 => 1.7.0(potato editon)
+-GUI调整
+  关闭了【怪物增强】improvedmobs的难度显示
+  关闭了【物品栏hud】InventoryHud物品栏与装备显示
+  调整了【玉】Jade显示位置
+  调整了【pmmo】project_mmo经验掉落hud位置与衰退时间
+  调整了【越肩视角】shouldersurfing视角位置
+  修改了【极简血量显示】neat显示模式
+-修复了【alex生物】alexmobs的汉化问题
+-对【龙之眼】eyeofdragons进行了汉化
+-对【PMMO】Project_MMO进行了部分汉化
+-对部分按键进行了调整
+
+
+
+V2.6.1.20230509
+-添加mod
+ 【灾变神兵】heaven-burner
+ 【灾变血条】cataclysmbossbar
+
+ 
+V2.6.0
+-添加mod
+ 【沉浸飞机】immersive_aircraft
+ 【喝啤酒啦】drinkbeer
+ 【茶壶】tea_kettle
+ 【二次机会】secondchance
+ 【光速加载】lightspeed
+ 【音乐开关】musictriggers
+ 【美观血条】HealthOverlay
+ 【怪物增强】improvedmobs
+ 【更多村民】morevillagers
+ 【更多凋零骷髅】NetherSkeletons
+ 【狗头人】Kobold
+-删除mod
+ 【附魔描述】EnchantmentDescriptions
+ 【地幔】Mantle
+ 【音乐间隔】musicdr
+-更新mod
+ 【哦土豆】opotato 1.10.3 => 1.11.0
+ 【Xae小地图】Xaeros_Minimap 23.3.3 => 23.4.1
+ 【Xae世界地图】XaerosWorldMap 1.29.5 => 1.30.1
+-修复了bossbar的显示问题
+-删除了重复mod文件
+-优化了客户端启动速度
+
+V2.5.1
+-更新了【哦土豆】1.9.1 => 1.10.3
+
+V2.5.1
+-更新了【哦土豆】1.10.2 => 1.9.1
+
+
+V2.5.0
+-添加mod
+ 【CHARM】charm
+ 【水产】Aquaculture
+ 【巴迪卡牌】Buddycards
+ 【叶间穿行】PassableFoliage
+ 【弓箭手悖论】archers_paradox
+ 【下节合金装备增强】upgradednetherite
+ 【独特附魔】Unique Enchantments
+ 【招架】parrying-unofficial
+ 【钓鱼修改】fishingoverhaul
+ 【val结构】valhelsia_structures
+ 【凋灵骷髅调整】WitherSkeletonTweaks
+ 【附魔控制】enchantato
+ 【怪物目标】targetato
+ 【战利品】lootr
+ 【制作调整】CraftingTweaks
+ 【mc风格画作】MC+Style+Paintings
+ 【龙画作】BlackAuresPaintings
+ 【泰拉画作】TPaintings
+ 【日月调整】celesteconfig
+ 【盔甲音效】ArmorSoundTweak
+ 【音乐间隔】musicdr
+ 【随意修复】randompatches
+ -删除mod
+ 【禁用实验性】shutupexperimentalsettings
+ 【背景音乐】infinitemusic
+ 【背刺】backslab
+ 【关闭宠物伤害】friendlyfire
+ 【孔明灯】SkyLanterns
+ 【植物盆栽】BotanyPots
+ 【盆栽扩展】BotanyTrees
+ 【细节盔甲】DetailArmorBar
+ 【笔记】notes
+-更新了【哦土豆】opatato1.7.9 => 1.10.2
+-更新了车万女仆模型包
+-添加了水产与真实钓鱼的兼容数据包
+-同步了客户端与服务端的配置文件
+-修复了使用越肩视角时准星乱飘的问题
+-对极简血量显示进行了调整
+-对boss血条进行了调整
+
+V2.4.0
+-添加mod
+ 【精妙背包】sophisticatedbackpacks
+ 【迎战】meetyourfight
+ 【吃太饱了】eattoomuch
+-删除mod
+ 【雪，真实的魔法】snowrealmagic
+ 【雪】snowundertrees
+-更新了【哦土豆】opatato1.2.0 => 1.7.9
+-修复了巨人剑的显示问题
+-添加了jei材质包
+
+
+
+V2.3.0
+-添加mod
+ 【美人鱼尾巴】MermaiDtail
+ 【更好的盾牌】BetterShieldsMC
+ 【万象】ensorcellation
+ 【传送石碑路径点】w2w
+ 【Xea小地图】Xaeros_Minimap
+ 【Xea世界地图】XaerosWorldMap 
+ 【友好的末影螨】FriendlyEndermite
+ 【蛋糕声音】cakechomps
+ 【伤害色调】damage-tint
+ 【铷视频界面】TextruesRubidiumOptions
+ 【背景音乐】infinitemusic
+ 【更好的第三人称】BetterThirdPerson
+ 【聊天头像】chat_heads
+ 【装备对比】EquipmentCompare
+-删除mod
+ 【涂鸦】McPaint
+ 【旅行地图】journeymap
+-调整了【耐久显示】DurabilityTooltip显示样式
+
+
+
+V2.2.2.20230331_Alpha
+-添加mod
+ 【冠军/强敌】Champions
+-更新了【更好的末地】BetterEnd 1.6.3 => 2.9.1
+-安装了末地城和山区村庄数据包
+-安装了水下村庄与海洋村庄数据包
+-安装了中世纪UI和武器材质包，并额外提供了几款可选材质包
+-修改了暮色森林巨人剑的材质
+-修复了玻璃连接纹理问题
+
+
+V2.2.1.20230330_Alpha
+-添加mod
+ 【游戏内账号切换】InGameAccountSwitche
+-删除mod
+ 【祭坛】zensummon
+-修复了kubejs报错的问题
+-篝火将不再显示名称
+-移除了与篝火交互时的血量恢复功能
+-安装了车万女仆模型包
+-添加了哥布林商人与战利品袋数据包
+
+
+
+V2.2.0.20230329_Alpha
+-增添了自动更新功能
+-删除mod
+ 【jpEmoji！】japanese-emoji-commands
+ 【地图边界】MapFrontiers
+ 【配置检测】Modpack+Configuration+Checker
+ 【风滚草】tumbleweed-1.16-0.4.9
+ 【伊卡洛斯之翼】locusazzurro_icaruswings
+ 【原神武器】deathmatch
+ 【玻璃切割器】glasscutter
+ 【搬运】carryon
+ 【流浪猎人】wandering_trapper
+ 【区块预生成】Chunk+Pregenerator
+-增加mod
+ 【rl结构】rlstructures
+ 【传送门机制重构】BetterPortals
+ 【地牢增强】dungeons_enhanced
+ 【附魔书美化】NekosEnchantedBooks
+ 【哥布林】Goblins_Dungeons
+ 【滑翔伞】Paraglider
+ 【祭坛】ZenSummoning
+ 【龙之眼】eyeofdragons
+ 【落选生物】outvoted
+ 【魔术师】the-conjurer
+ 【仁慈的虚空】ForgivingVoid
+ 【小骷髅】TinySkeletons
+ 【真实火把】RealisticTorches
+ 【雪】snowundertrees
+ 【背刺】backstab
+ 【重铸】modifiers
+-对【极简血量显示】进行了调整，只有当目光对准时才会显示血条，且部分实体与小体积生物将不会再显示血条
+-修改了越肩视角默认配置
+ 
